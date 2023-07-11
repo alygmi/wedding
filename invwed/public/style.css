@@ -1,4 +1,5 @@
 body {
+    font-family: "poppins", sans-serif;
     background: url("../imgs/m.jpg") rgba(0, 0, 0, 0.3);
     background-blend-mode: multiply;
     background-position: center;
@@ -6,6 +7,3 @@ body {
     background-repeat: no-repeat;
 }
 
-@media(max-width: 991px){
-    
-}

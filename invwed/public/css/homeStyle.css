@@ -1,7 +1,8 @@
 body {
-    background: url("../imgs/m.jpg") rgba(0, 0, 0, 0.3);
+    background: url("../imgs/bg.jpg") rgba(0, 0, 0, 0.3);
     background-blend-mode: multiply;
     background-position: center;
+    font-family: "poppins", sans-serif;
     background-size: cover;
     background-repeat: no-repeat;
 }
