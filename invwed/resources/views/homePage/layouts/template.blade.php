@@ -15,13 +15,21 @@
   {{-- feathers icon --}}
   <script src="https://unpkg.com/feather-icons"></script>
   {{-- css --}}
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/homepage/styles.css"/>
+  <link rel="stylesheet" href="css/homepage/main.css">
+  <link rel="stylesheet" href="css/homepage/about.css">
+  <link rel="stylesheet" href="css/homepage/responsive.css">
 </head>
 <body>
  {{-- navbar  --}}
  @include('homepage.layouts.navbar')
  {{-- Main --}}
  @yield('mainPage')
- 
+ {{-- ABOUT --}}
+
+ {{-- feathers icon js --}}
+ <script>
+  feather.replace()
+</script>
 </body>
 </html>
