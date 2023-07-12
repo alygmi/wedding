@@ -19,6 +19,9 @@
 </head>
 <body>
  {{-- navbar  --}}
- @include('homepage.navbar')
+ @include('homepage.layouts.navbar')
+ {{-- Main --}}
+ @yield('mainPage')
+ 
 </body>
 </html>

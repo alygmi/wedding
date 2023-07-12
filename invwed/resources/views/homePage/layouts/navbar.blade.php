@@ -1,5 +1,5 @@
 <nav class="navbar">
-    <a href="/" class="navbar-logo"><img src="{{asset('imgs/logo.png')}}" alt="" width="50px" style="margin: 1px;padding: 0px color:white;"><span>HIVITATION</span></a>
+    <a href="/" class="navbar-logo"><img src="{{asset('imgs/logo.png')}}" alt="" width="50px" style="margin: 1px;padding: 0px color:white;"><span class="spanbar">HIVITATION</span></a>
 
     <div class="navbar-nav">
         <a href="/" >Home</a>

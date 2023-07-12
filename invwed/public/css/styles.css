@@ -1,3 +1,29 @@
+:root {
+    --primary: #b6895b;
+    --bg: #010101;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "poppins", sans-serif;
+    background-color: var(--bg);
+    color: #fff;
+  }
+
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -15,6 +41,9 @@
 /* .navbar a:link{
     text-decoration: none;
 } */
+.spanbar{
+    display: inline-block;
+}
 
 .navbar .navbar-logo {
     font-size: 2rem;
@@ -24,8 +53,6 @@
 }
 
 .navbar span {
-    margin-bottom: 3rem;
-    margin-left: 3rem;
     color: var(--primary);
   }
   
