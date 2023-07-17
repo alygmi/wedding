@@ -18,3 +18,4 @@ use App\Http\Controllers\HomeController;
 Route::get('/', [HomeController::class, 'show']);
 
 Route::get('/dashboard', [DashboardController::class, 'index']);
+Route::get('/dashboard2', [DashboardController::class, 'show']);
